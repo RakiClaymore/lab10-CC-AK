@@ -7,14 +7,9 @@ One function per operation, in order.
 import math
 
 def square_root(a):
-    try:
-        c = math.sqrt(a)
-        if a < 0:
-            raise ValueError
-    except:
-        print(ValueError)
-
-    return c
+    if a < 0:
+            raise ValueError("Cannot take square root of a negative number.")
+    return math.sqrt(a)
 
 def hypotenuse(a, b):
     c = math.hypot(a, b)
