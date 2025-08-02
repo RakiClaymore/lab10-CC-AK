@@ -1,3 +1,7 @@
+# https://github.com/RakiClaymore/lab10-CC-AK
+# Partner 1: Chloe Coile
+# Partner 2: Amphitreatte Kreiman
+
 import unittest
 from calculator import *
 
